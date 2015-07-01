@@ -1,0 +1,74 @@
+body {
+	width: 100%;
+	background-color: black;
+	background-image: url("../images/bernabeu-test.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    color: white;
+}
+
+.red {
+	border: solid red 1px;
+}
+.dark h1 {
+	margin: 0;
+	font-size: 20vw;
+	text-transform: uppercase;
+	font-family: Montserrat, sans-serif;
+	line-height: 1.9;
+	color: #fff;
+	background: #000;
+
+	mix-blend-mode: darken;
+}
+
+.tuile-carousel {
+	margin-bottom: 20px;
+}
+.carousel-headline {
+	position: absolute;
+	z-index: 5;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+}
+.carousel-headline p {
+	color: white;
+	font-size: large;  
+	margin: 10px;
+}
+
+.tuile-content {
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+
+.modal.fade .modal-dialog {
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+     -moz-transition: -moz-transform 0.3s ease-out;
+       -o-transition: -o-transform 0.3s ease-out;
+          transition: transform 0.3s ease-out;
+}
+
+.modal.in .modal-dialog {
+}
+.modal-header .close {
+  	margin-top: -8px;
+}
+
+.iframe-modal {
+	width: 565px;
+	height: 412px;
+}
+
+@media only screen and (max-width: 400px) {
+	.media-body {
+  		display: block;
+    }
+    .iframe-modal {
+		width: 325px;
+  		height: 250px;
+	}
+}
